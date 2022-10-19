@@ -1,0 +1,29 @@
+table ,th,td{
+    border: 1px soild black;
+    border-collapse: collapse;
+    width: 390px;
+}
+.all h2 {
+    background-color: lightblue;
+    color:blue
+    padding: 2px
+
+}
+.blue{
+    color: rgb(6,139,183);
+
+}
+.gray {
+    background-color: rgb(247,238,238);
+}
+.lightblue{
+    color: rgb(39, 187 , 237);
+
+}
+
+petinfo form{
+    width: 180px;
+    display: flex;
+    flex-direction:column;
+}
+
