@@ -1,0 +1,17 @@
+h1{
+
+    color: yellow;
+float: left;}
+h2{
+    color: black;
+    float: right;
+}
+.p1{
+    color: black;
+    float: left;
+}
+.p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+
