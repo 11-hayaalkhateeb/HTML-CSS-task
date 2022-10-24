@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oct24</title>
+    <style>
+        .gridt{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows:20% 50% 30%  ;
+row-gap: 10px;
+column-gap: 10px;
+grid-template-areas: blck 
+org;
+    }
+
+    .gridt{
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+        .divo{
+            grid-area: blck;
+            background-color: black;
+
+        }
+        .divt{
+            grid-area: org ;
+            background-color: rgb(233, 138, 21);
+
+        }
+        .divth{
+            grid-area: gre;
+            background-color: rgb(30, 119, 8);
+
+        }
+        .divf{
+            grid-area: blu;
+            background-color: rgb(19, 63, 177);
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="gridt">
+        <div class="divo" > </div>
+        <div class="divt" ></div>
+        <div class="divth" > </div>
+        <div class="divf" > </div>
+        </div>
+</body>
+</html>
