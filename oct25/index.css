@@ -1,0 +1,27 @@
+div.divo{
+height: 400px;
+
+}
+.divo>div{
+    display: inline-block;
+    background-color: rgb(197, 207, 216);
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 80px ;
+}
+
+
+@media only screen and (min-device-widith: 0 ) and (max-device-widith: 480px)
+ {
+    
+}
+@media only screen and  (min-device-widith: 481px ) and (max-device-widith:768px)
+{
+
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+#img{
+    height: 250px;
+    text-align: center;
+}
+.imgo{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border:1px solid black;
+    margin : 10px;
+}
+.one{
+    width:250px;
+    height: 250px;
+}
+
+@media only screen and (min-device-widith: 0px ) and (max-device-widith: 480px)
+{
+    .imgo{ 
+    }
+}
