@@ -1,0 +1,31 @@
+.flextwo {
+    display: flex;
+            
+            
+        }
+        .flextwo>div{
+            text-align: center;
+            font-size: 40px;
+            color:white;
+          width: 400%;
+          height: 800px;
+          padding-top: 50%;
+        }
+
+
+        /* tablets & larger smartphones (481-768) */
+        @media only screen and (min-device-width: 0px) and (max-device-width:480px){
+
+            .flextwo {
+                display: flex;
+                flex-direction: column;
+            }
+            .flextwo>div{
+                text-align: center;
+                font-size: 40px;
+                color:white;
+              width: 400%;
+              height: 800px;
+              padding-top: 50%;
+            }
+        } 

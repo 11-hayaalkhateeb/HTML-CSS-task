@@ -1,0 +1,47 @@
+.task1
+{ display:flex; 
+    border:10px solid rgb(240, 149, 59) ; 
+    
+} 
+
+.task1>div{ text-align:center;
+     color: white; 
+     width: 100%;
+      height:700px;
+       font-size:80px;
+        padding-top:20px; 
+    text-align: center;}
+    /*phone*/
+    @media only screen and (min-device-width: 0px) and (max-device-width:480px){
+        .task1
+        { display:flex; 
+            border:10px solid rgb(240, 149, 59) ; 
+            flex-direction: column;
+
+        } 
+
+   .task1>div{ text-align:center;
+ color: white; 
+ width: 100%;
+  height:700px;
+   font-size:80px;
+    padding-top:20px; 
+text-align: center;}
+ }
+        /* tablets & larger smartphones (481-768) */
+        @media only screen and (min-device-width: 481px) and (max-device-width:768px){
+            .task1
+            { display:grid; 
+                border:10px solid rgb(240, 149, 59) ; 
+                grid-template-columns: 50% 50%;
+
+            } 
+
+       .task1>div{ text-align:center;
+     color: white; 
+     width: 100%;
+      height:700px;
+       font-size:80px;
+        padding-top:20px; 
+    text-align: center;}
+     }
